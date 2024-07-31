@@ -10,7 +10,7 @@ const xss = require('xss-clean');
 const mongoSanitize = require('express-mongo-sanitize');
 
 
-const mongoUri = `mongodb+srv://aahmad19376:${DB_PASS}@${DB_HOST}?retryWrites=true&w=majority&appName=Cluster0`
+const mongoUri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}?retryWrites=true&w=majority&appName=Cluster0`
 
 mongoose.connect(mongoUri)
 .then(()=>{
