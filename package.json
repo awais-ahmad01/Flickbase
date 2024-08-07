@@ -22,8 +22,13 @@
     "express-validator": "^7.1.0",
     "http-status": "^1.7.4",
     "jsonwebtoken": "^9.0.2",
+    "mailgen": "^2.0.28",
     "mongoose": "^8.5.1",
     "mongoose-aggregate-paginate-v2": "^1.1.2",
+    "nodemailer": "^6.9.14",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "react-cookies": "^0.1.1",
     "xss-clean": "^0.1.4"
   }
 }
