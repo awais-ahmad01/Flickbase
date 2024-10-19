@@ -72,8 +72,6 @@ userSchema.statics.emailTaken = async function(email){
 
 
 userSchema.methods.generateAuthToken = function(){
-
-
     let user = this;
     const userObj = {
         sub:user._id.toHexString(),
